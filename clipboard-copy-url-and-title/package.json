@@ -25,6 +25,7 @@
     "@tsconfig/svelte": "^1.0.0"
   },
   "dependencies": {
+    "@types/chrome": "0.0.135",
     "sirv-cli": "^1.0.0"
   }
 }
