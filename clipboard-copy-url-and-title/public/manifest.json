@@ -2,5 +2,8 @@
   "name": "clipboard copy url and title",
   "version": "1.0",
   "description": "copy url and title",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
