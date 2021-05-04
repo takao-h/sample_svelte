@@ -3,14 +3,15 @@ import App from './App.svelte';
 async function getCurrentTabInfo() {
 	let queryOptions = { active: true, currentWindow: true }
   let [tab] = await chrome.tabs.query(queryOptions);
-	console.log(tab);
+	console.log(tab.url);
   return tab;
 }
 
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'world'
+		name: 'world',
+		tab: getCurrentTabInfo()
 	}
 });
 
