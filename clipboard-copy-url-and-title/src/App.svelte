@@ -1,9 +1,11 @@
 <script lang="ts">
+	import Title from './Title.svelte';
 	export let name: string;
+	export let tab: any;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<Title />
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
