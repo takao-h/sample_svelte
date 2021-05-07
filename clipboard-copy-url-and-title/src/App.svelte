@@ -1,7 +1,5 @@
 <script lang="ts">
 	import Title from './Title.svelte';
-	export let name: string;
-	export let tab: any;
 </script>
 
 <main>
